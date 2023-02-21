@@ -1,10 +1,10 @@
 # Configurations
-title:            La web de sesaba
+title:            sesaba
 longtitle:        La web de sesaba
 author:           sesaba23
 email:            sesaba23@gmail.com
 description: >
-  La web de sesaba.
+  La web de sesaba. Contenido relacionado con la ingeniería y la programación
 
 version:          1.0
 gitbook_version:  3.2.3
@@ -19,7 +19,7 @@ remote_theme: sighingnow/jekyll-gitbook
 toc:
   enabled: false
   h_min: 1
-  h_max: 3
+  h_max: 4
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
 favicon_path:     /assets/gitbook/images/favicon.ico
@@ -50,6 +50,8 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
+  posts_ingenieria:
+    output: true
 
 page_width: 800px
 

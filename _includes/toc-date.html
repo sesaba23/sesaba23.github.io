@@ -24,6 +24,9 @@
                 {% if collection.output %}
                     {% if collection.label == "posts" %}
                         {% assign reversed_posts = site[collection.label] | reverse %}
+                    {% elsif collection.label == "posts_ingenieria" %}
+                        {% assign reversed_posts = site[collection.label] %}
+                        <p style="font-weight: bold; padding-left: 12px;">Ingeniería:</p>
                     {% else %}
                         {% assign reversed_posts = site[collection.label] %}
                     {% endif %}
@@ -52,8 +55,8 @@
             {% endfor %}
 
             <li>
-                <a href="https://github.com/sighingnow/jekyll-gitbook/fork" target="blank" class="gitbook-link">
-                    Fork it Now!
+                <a href="mailto:sesaba23@gmail.com" target="blank" class="gitbook-link">
+                    Contact me
                 </a>
             </li>
         </ul>
