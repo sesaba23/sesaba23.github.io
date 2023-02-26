@@ -13,6 +13,9 @@ url:              'https://sesaba23.github.io'
 baseurl:          ''
 rss:              RSS
 
+# Allow to access in a LAN. Github ignore it
+host: 0.0.0.0
+
 # bootstrap: use the remote theme for the site itself
 remote_theme: sighingnow/jekyll-gitbook
 
@@ -46,12 +49,15 @@ permalink:        /:categories/:year-:month-:day-:title:output_ext
 exclude:
   - _drafts
 
+# Field "subject", includes collections title in side panel 
 collections:
   pages:
     output: true
     permalink: /:collection/:path/
   posts_ingenieria:
     output: true
+    subject: Ingeniería
+    permalink: /:collection/:path/
 
 page_width: 800px
 

@@ -6,20 +6,17 @@ category: instalaciones
 layout: post
 published: true
 ---
-
-## MANTENIMIENTOS REGLAMENTARIOS DE DISTINTAS INSTALACIONES. 
-## REBT, RITE, AEM Y RIPCI
+## MANTENIMIENTOS SEGÚN: REBT, AEM Y RIPCI
 *Publicado: {{ page.date | date_to_string}} \| Autor: {{ page.author }}*
 
 ---
 > ##### AVISO
 >
-> Este post sólo pretende ser una guía-resumen de aplicación de las operaciones de
+> Este post pretende ser una guía-resumen de aplicación de las operaciones de
 > mantenimiento de distintas instalaciones, según los siguientes Reglamentos:
-> - [R.D. 842/2002, de 2 de agosto, Reglamento de Instalaciones Eléctricas en Baja Tensión][1]
-> - [R.D. 1027/2007, de 20 de julio, Reglamento de Instalaciones térmicas en los Edificios][2]
-> - [R.D. 88/2013 - ITC AEM 1, Ascensores, del R.D. 2291/1995, Reglamento de aparatos de elevación y manutención][3]
-> - [R.D. 513/2017, 2 de mayo, Reglamento de Instalaciones de Protección Contra Incendios][4]  
+> - [R.D. 842/2002, Reglamento de Instalaciones Eléctricas en Baja Tensión,][1]
+> - [R.D. 88/2013 - ITC AEM 1, Ascensores, y][3]
+> - [R.D. 513/2017, Reglamento de Instalaciones de Protección Contra Incendios.][4]  
 >
 > Ten en cuenta que dichos textos son los únicos con validez legal. Puedes consultar 
 > su contenido pinchando sobre cada Reglamento.    
@@ -30,17 +27,16 @@ published: true
 <div markdown=1 style="text-align: justify">
 
 <br>
-Todas las instalaciones necesitan un mantenimiento adecuado para que funcionen
-correctamente a lo largo de su vida útil. Si bien, esto es cierto en cualquier tipo de instalación,
-en <ins>instalaciones que afectan a la seguridad de las personas</ins>, cobra mayor importancia si cabe.
+A lo largo de su vida útil, todas las instalaciones necesitan un mantenimiento adecuado para que funcionen
+correctamente. Esto es cierto en cualquier tipo de instalación, si bien
+en <ins>instalaciones que afectan a la seguridad de las personas</ins>, cobra mayor importancia.  
 Por este motivo, se han aprobado diversos téxtos que establecen reglamentariamente cuáles
 son las **operaciones de mantenimiento** imprescindibles, así como su régimen de inspecciones.  
 
 Tabla de contenidos:
 1. [Reglamento de Instalaciones Eléctricas en Baja Tensión (REBT)](#rebt)
-2. [Reglamento de Instalaciones térmicas en los Edificios (RITE)](#rite)
-3. [Reglamento de aparatos de elevación y manutención, ITC AEM 1, Ascensores (AEM)](#aem)
-4. [Reglamento de Instalaciones de Protección Contra Incendios (RIPCI)](#ripci)
+2. [Reglamento de aparatos de elevación y manutención, ITC AEM 1, Ascensores (AEM)](#aem)
+3. [Reglamento de Instalaciones de Protección Contra Incendios (RIPCI)](#ripci)
 
 Al igual que en entradas anteriores, voy a tratar de resumir de una manera breve y clara
 las operaciones de mantenimiento y las inspecciones necesarias según el tipo de instalacción.
@@ -53,12 +49,11 @@ Empecemos:
 ### 1. Reglamento de Instalaciones Eléctricas en Baja Tensión (REBT) 
 
 Los <ins>artículos 18, 20 y 21</ins> se refieren a la ejecución y puesta en 
-servicio de las instalaciones, a su matenimiento y al regimen de inspecciones
+servicio de este tipo de instalaciones, a su matenimiento y al regimen de inspecciones
 respectivamente. Asimismo, las siguientes Instrucciones Técnicas (ITC) regulan
 pormenorizamdamente cada uno de estos aspectos.  
 
 #### ITC BT-05, Verificaciones e inspecciones
-{:.no_toc)
 
 Antes de la puesta en servicio de cualquier instalación eléctrica en B.T.,
 es necesario realizar una **verificación por parte de la empresa instaladora**
@@ -67,7 +62,7 @@ Adicionalmente, **las instalaciones con especial relevancia**, deben ser objeto
 de **inspección que se realizará por un Organismo de Control Autorizado (OCA)**.  
 Según el <ins>artículo 18.d</ins> cuando se termine de ejecutar la instalación, realizadas
 las verificaciones que correspondan y, en su caso, la inspección inicial, la empresa instaladora
-ejecutora de la instalación, emitirá un **certificado de instalación**, en el que se hará 
+que la ha realizado, emitirá un **certificado de instalación**. En él, se hará 
 constar que la misma se ha realizado de conformidad con lo establecido en el Reglamento y sus ITCs.
 
 Las inspecciones pueden ser:
@@ -81,11 +76,11 @@ c) Locales con riesgo de incendio o explosión, de clase I, excepto garajes de m
 d) Locales mojados con potencia instalada superior a 25 kW;  
 e) Piscinas con potencia instalada superior a 10 kW;  
 g) Quirófanos y salas de intervención;  
-h) Instalaciones de alumbrado exterior con potencia instalada superior 5 kW.  
+h) Instalaciones de alumbrado exterior con potencia instalada superior 5 kW.    
 2. **Inspecciones Periódicas**:
-Serán objeto de inspecciones periódicas **cada cinco (5) años** todas las
-instalacciones que necesiten inspección inicial y **cada diez (10) años**, las
-comunes de edificios de viviendas de potencia total instalada superior a 100 kW.
+**Cada cinco (5) años** todas las instalacciones que necesiten inspección inicial 
+y **cada diez (10) años**, las comunes de edificios de viviendas de potencia total
+instalada superior a 100 kW.
 
 #### Mantenimiento
 
@@ -98,74 +93,56 @@ El REBT es bastante escueto en este sentido, tratando el mantenimiento en el
 > *éstas deberán ser efectuadas por una empresa instaladora.*  
 
 Para terminar, hay que mencionar que el <ins>artículo 19</ins> obliga a la empresa
-instaladora a confeccionar unas **instrucciones de uso y mantenimiento** de cualquier instalación
+instaladora a confeccionar unas **instrucciones de uso y mantenimiento**
 que se **anexará al certificado de la instalación**.
 Éstas, incluirán, al menos, un **esquema unifilar** con las características técnicas 
 fundamentales de los equipos y materiales que forman la instalación, así como un
-croquis de su trazado.  
-
-Concluye diciendo que cualquier modificación o ampliación requerirá de un complemento
+croquis de su trazado. Concluye diciendo que cualquier modificación o ampliación requerirá de un complemento
 a lo anterior.
 
-<a id="rite"></a>
-
-### 2. Reglamento de Instalaciones térmicas en los Edificios (RITE)
-
-#### IT-3.1 Programa de mantenimiento preventivo
-
-Las instalaciones térmicas se mantendrán de acuerdo con las operaciones y periodicidades 
-contenidas en el programa de mantenimiento preventivo establecido en el «Manual de uso y mantenimiento»
-cuando este exista, siendo las mínimas las indicadas en la tabla 3.1:
-
-|Equipos y potencias útiles nominales (Pn)|Viviendas|Restantes usos|
-|:----|:----:|:----:|
-|Calentadores de ACS a gas Pn ≤ 24,4 kW.|5 años|2 años|
-|Calentadores de ACS a gas 24,4 kW < Pn ≤ 70 kW|2 años|Anual|
-|Calderas murales a gas Pn ≤ 70 kW|2 años|Anual|
-|Resto instalaciones calefacción Pn ≥70 kW|Anual|Anual|
-|Aire acondicionado Pn ≤ 12 kW|4 años|2 años|
-|Aire acondicionado 12 kW < Pn ≤ 70 kW|2 años|Anual|
-|Bomba de calor para ACS Pn ≤ 12 kW|4 años|2 años|
-|Bomba de calor para ACS 12 kW < Pn ≤ 70 kW|2 años|Anual|
-|Instalaciones de potencia superior a 70 kW|Mensual|Mensual|
-|Instalaciones solares térmicas Pn≤14 kW|Anual|Anual|
-|Instalaciones solares térmicas Pn>14 kW|Semestral|Semestral|
-
-En instalaciones de potencia útil nominal ≤ 70 kW, con supervisión remota en continuo, 
-la periodicidad se puede incrementar hasta 2 años, siempre que estén garantizadas 
-las condiciones de seguridad y eficiencia energética.
-
-En todos los casos se tendrán en cuenta las especificaciones de los fabricantes de los equipos.
-
-Para instalaciones de potencia útil nominal ≤ 70 kW cuando no exista *Manual de uso y mantenimiento*,
-las instalaciones se mantendrán de acuerdo con el criterio profesional de la empresa mantenedora. 
-A título orientativo, en la Tabla 3.2 de la IT-3 se indican las operaciones de mantenimiento preventivo.
-
-#### IT-4.3  Periodicidad de inspecciones
-
-En el siguiente cuadro se resume las periodicidades de las inspecciones descritas
-en los apartados anteriores:
-
-| **Tipo de instalación** | **Frecuencia de inspección** |
-|:--------: | :-----------: |
-| Sistemas de Calefacción y ACS (IT-4.2.1.) | 4 años |
-| Sistemas de Aire Acondicionado (IT-4.2.2.) | 4 años |
-| Instalación térmica completa (IT-4.2.3.) | 15 años |  
-
-<br>
-
-[comment]: <> (post_url doesn`t work because)
-[comment]: <> (I am not publishing ingenieria in _post folder)
-
-Si quieres saber más detalles sobre el mantenimiento de las instalaciones de climatización,
-puedes consultar el siguiente **[artículo]({% link  _posts_ingenieria/rite/2023-02-20-rite_it3.md %})** que
-está públicado en esta web.
 
 <a id="aem"></a>
 
-### 3. ITC AEM 1, Ascensores (AEM)            
+### 2. ITC AEM 1, Ascensores (AEM)    
 
-**PERIODICIDAD DE LAS OPERACIONES DE MANTENIMIENTO**
+#### Diseño, fabricación, instalación y puesta en servicio
+
+###### Apartado 3. Diseño, fabricación y puesta en el mercado de los ascensores 
+
+En función de la velocidad a la que se desplazan, los ascensores cumplirán las 
+siguientes condiciones:
+- **v $ \le $ 15m/s** aplica el [R.D. 1644/2008, Normas de comercialización y puesta en servicio de las máquinas][9].
+- **v $ \gt $ 15 m/s** aplica el [R.D 1314/1997, de 1 de agosto, por el que se dictan las disposiciones de aplicación de la Directiva del Parlamento Europeo y del Consejo 95/16/CE, sobre ascensores, modificado por el Real Decreto 1644/2008][10].
+ 
+###### Apartado 4. Puesta en servicio de los ascensores.
+
+**NO necesitan ningún tipo de autorización previa** por parte de la Administración para su puesta en servicio. 
+Sin embargo, **es necesario que el titular lo comunique** al Órgano Competente de la Comunidad Autónoma.
+Para ello, presentará la siguiente documentación:
+- Ficha técnica de la instalación,
+- Declaración CE de conformidad,
+- Copia del contrato de conservación, y
+- Cuando sea aplicable, las actas de los ensayos relacionadas con el control final.
+
+En el momento de la recepción de la comunicación, el órgano competente otorgará 
+**un número de identificación y registro al aparato**.
+
+###### Apartado 5. Mantenimiento del ascensor
+
+Se considera <ins>titular</ins> del ascensor su propietario o, en su caso, arrendatario y está obligado a:
+1. Mantener el ascensor en buen estado de funcionamiento. Debe suscribir un contrato
+de mantenimiento con empresa conservadora de ascensores, facilitando las revisiones y comprobaciones pertinentes.
+2. Impedir su funcionamiento cuando no se reúnan las garantías de seguridad.
+3. En caso de accidente, anomalía, deficiencia o abandono con la debida conservación,
+deberá ponerlo en conocimiento inmediato de la empresa conservadora de <ins>manera fideligna</ins>
+Si la comunicación no es atendida, debe denunciarlo ante el Órgano Competente de la Comunidad Autónoma.
+4. Solicitar las inspecciones periódicas en plazo. 
+
+El titular debe designar una persona <ins>encargada del servicio ordinario</ins> del ascensor que debe
+estar instruida en el manejo del aparato por parte de la empresa conservadora. Auxiliará al titular en 
+el cumplimiento de los apartados 2 y 3 anteriores.
+
+El mantenimiento se deberá realizar dentro de los siguientes plazos:
 
 |**Tipo de instalación**|**Periodicidad**|
 |:----------------------|:---------------------------:|
@@ -173,7 +150,11 @@ está públicado en esta web.
 |Resto|Mensual|
 
 <br>
-**PERIODICIDAD DE LAS INSPECCIONES REGLAMENTARIAS**
+Después del mantenimiento, la empresa conservadora, entregará al titular un **boletín** que refleje
+los datos fundamentales de la actuación. Asimismo, mantendrá un **registro de mantenimiento**.
+
+###### Apartado 11, Inspecciones.
+Los ascensores deben ser inspeccionados por una OCA, con las siguientes periodicidades: 
 
 |**Uso Instalación**|**Periodicidad**|
 |:------------------|:---------------------------:|
@@ -181,9 +162,23 @@ está públicado en esta web.
 |Edificio > 20 viviendas|4 años|
 |Resto|6 años|
 
+<br>
+La OCA entregará el certificado de inspección favorable al titular del ascensor y 
+comunicará el contenido del mismo al órgano competente de la Comunidad Autónoma 
+en el plazo de 15 días naturales.
+
+###### Apartado 12, Información a los titulares de la instalación.
+
+Además de las instrucciones que deben acompañar a los ascensores, el instalador o el fabricante, facilitarán al
+titular la información relativa a las obligaciones de mantenimiento e inspección periódica.
+Estas instrucciones serán actualizadas por la empresa conservadora en función de las prescripciones
+reglamentarias vigentes.
+
+
+
 <a id="ripci"></a>
 
-### 4. Reglamento de Instalaciones de Protección Contra Incendios (RIPCI)
+### 3. Reglamento de Instalaciones de Protección Contra Incendios (RIPCI)
 
 Antes de empezar a desgranar este texto reglamentario en lo que se refiere a la
 puesta en funcionamiento y el mantenimiento de las instalaciones PCI, hay que
@@ -213,11 +208,11 @@ como para su puesta en funcionamiento.
 
 ###### Artículo 21. Mantenimiento y conservación
 
-Indica que las instalaciones de protección activa contra incendios se someterán 
+Las instalaciones de protección activa contra incendios se someterán 
 a las revisiones de mantenimiento establecidas en el **ANEXO II**.
 
 Las **actas de mantenimiento** que deben estar firmadas por personal cualificado, estarán
-a disposición de los Organos Competentes en materia de industria de cada Comunidad autónoma,
+a disposición de los Organos Competentes en materia de industria de cada Comunidad Autónoma,
 al menos, <ins>durante 5 años</ins>.
 
 #### Capítulo V. Inspecciones periódicas de Instalaciones de protección contra incendios
@@ -248,7 +243,7 @@ establecido por el fabricante. Como mínimo, se realizarán las operaciones que 
 
 Dado que el formato en el que están estructuradas las operaciones de mantenimiento
 y su frecuencia, facilitan su consulta, no merece la pena reproducirlas en este artículo. 
-Puedes consultarlas directamente pinchando sobre el los guarismos que identifican 
+Puedes consultarlas directamente pinchando sobre los guarismos que identifican 
 cada tabla en los párrafos anteriores.
 
 En cualquier caso, merece la pena destacar los siguientes aspectos:
@@ -264,8 +259,8 @@ Espero que podáis sacar provecho a este post.
 
 ---
 Cómo siempre: si crees que esta publicación se puede mejorar, encuentras alguna errata,
-o piensas que algún contenido no expresa fielmente el contenido del RITE,
-puedes enviarme tus comentarios a mi dirección de [e-mail][10].
+o piensas que algún contenido no expresa fielmente el contenido de algún Reglamento,
+puedes enviarme tus comentarios a mi dirección de [e-mail][11].
 </div>
 
 *[B.T.]: Baja Tensión
@@ -281,14 +276,16 @@ puedes enviarme tus comentarios a mi dirección de [e-mail][10].
 [^1]: Footnote
 
 [1]:https://www.boe.es/eli/es/rd/2002/08/02/842/con
-[2]:https://www.boe.es/eli/es/rd/2007/07/20/1027/con
+
 [3]:https://www.boe.es/eli/es/rd/2013/02/08/88/con
 [4]:https://www.boe.es/eli/es/rd/2017/05/22/513/con
 [5]:https://www.boe.es/eli/es/rd/2004/12/03/2267/con
 [6]:https://www.codigotecnico.org/DocumentosCTE/SeguridadEnCasoDeIncendio.html
 [7]:https://www.boe.es/buscar/act.php?id=BOE-A-2017-6606&p=20210428&tn=1#s1-3
 [8]:https://www.boe.es/buscar/act.php?id=BOE-A-2017-6606&p=20210428&tn=1#s2-3
+[9]: https://www.boe.es/eli/es/rd/2008/10/10/1644/con 
+[10]: https://www.boe.es/eli/es/rd/2008/10/10/1644/con
  
-[10]:mailto:sesaba23@gmail.com
+[11]:mailto:sesaba23@gmail.com
 
 

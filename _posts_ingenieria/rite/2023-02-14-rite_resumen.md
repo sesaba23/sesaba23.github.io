@@ -7,8 +7,7 @@ layout: post
 published: true
 ---
 
-## REGLAMENTO DE INSTALACIONES TÉRMICAS EN LOS EDIFICIOS. R.D. 1027/2007. 
-## IT-1. Diseño y Dimensionado
+## REGLAMENTO DE INSTALACIONES TÉRMICAS EN LOS EDIFICIOS. R.D. 1027/2007. IT-1. Diseño y Dimensionado
 *Publicado: {{ page.date | date_to_string}} \| Autor: {{ page.author }}*
 
 ---
@@ -20,17 +19,32 @@ published: true
 > Puedes consultar [aquí][2] su contenido.
 {: .block-warning }
 
+<br>
 <div markdown=1 style="text-align: justify">
 
-#### Secuencia verificaciones (a incluir en el proyecto o memoria técnica):
-1. Calidad térmica del ambiente (apartado 1.4.1).
-2. Calidad de aire interior (apartado 1.4.2).
-3. Calidad acústica (apartado 1.4.3.d).
-4. Higiene (apartado 1.4.4).
+En el siguiente artículo, voy tratar de resumir la IT-1, diseño y dimensionado,
+del RITE. Además, puede se utilizada como una pequeña **guía que facilite el diseño**
+de este tipo de instalaciones. 
+También puede ser útil, si se pretende **analizar si la instalación proyectada, cumple las exigencias reglamentarias** siguientes:  
 
-#### IT 1.1.4.1 Calidad térmica del ambiente y valores para el dimensionado
+IT-1.1. [Exigencia de Bienestar e Higiene](#it-11-exigencia-de-bienestar-e-higiene)  
+IT-1.2 [Exigencia de Eficiencia Energética](#it-12-exigencia-de-eficiencia-energetica)
+
+Comenzamos:
+
+### IT-1.1 EXIGENCIA DE BIENESTAR E HIGIENE
+
+Estas es la **secuencia de verificaciones**, a incluir en el proyecto o memoria técnica,
+que acreditan que se cumple la exigencia de bienestar e higiene:
+1. [Calidad térmica del ambiente (apartado 1.4.1)](#it-1141-calidad-térmica-del-ambiente-y-valores-para-el-dimensionado).
+2. [Calidad de aire interior (apartado 1.4.2)](#it-1142-calidad-de-aire-interior).
+3. [Higiene (apartado 1.4.3)](#it-1143-exigencia-de-higiene).
+4. [Calidad acústica (apartado 1.4.4)](#it-1144-exigencia-de-calidad-del-ambiente-acustico).
+
+
+#### IT-1.1.4.1 Calidad térmica del ambiente y valores para el dimensionado
 Esta exigencia se considera satisfecha en el diseño y dimensionado de la instalación, 
-si parámetros como la temperatura, humedad relativa, la velocidad media del aire, etc.
+si parámetros como la **temperatura, humedad relativa, la velocidad media del aire**, etc.
 se mantienen dentro de de unos valores establecidos.
 
 Los valores más representativos a tener en cuenta son: 
@@ -50,9 +64,9 @@ la velocidad del aire es baja (< 0,1 m/s).
 
 Para actividades metabólicas y grados de vestimenta distintos ➡ UNE-EN ISO 7730.
 
-Asimismo, si se trata de un centro de trabajo, también hay que remitirse a
+Asimismo, si se trata de un <ins>centro de trabajo</ins>, también hay que remitirse a
 [las disposiciones mínimas de seguridad y salud en los lugares de trabajo][1],
-donde se indica, en relación a las condiciones ambientales (Anexo III):
+donde se indica, en relación a las condiciones ambientales ([Anexo III][4]):
 - Trabajos sedentarios: 17 y 27ºC
 - Trabajos ligeros: 14 y 25 ºC
 - 30 $\le$  HR $\le$ 70% (Si hay riesgo electricidad estática HR $\le$ 50%)
@@ -75,7 +89,7 @@ $$ V = {t \over 100} - 0,10 [m/s] $$
 Para otros porcentajes de PPD (Porcentaje de personas insatisfechas) ➡ UNE EN ISO 7730 
 y UNE-EN 13779.
 
-#### IT 1.1.4.2 Calidad de aire interior
+#### IT-1.1.4.2 Calidad de aire interior
 En viviendas, a locales habitables de su interior, almacenes de residuos y 
 trasteros, y en aparcamientos y garajes: VÁLIDOS ➡ CTE HS 03.
 
@@ -92,7 +106,7 @@ En el RESTO ➡ Sistema de ventilación para aporte de caudal suficiente de aire
 
 Se puede seguir uno de los siguientes métodos:
 
-<ins> A. Método indirecto de caudal de aire exterior por persona:</ins>
+###### A. Método indirecto de caudal de aire exterior por persona:
 
 <p style="text-align: center;">Tabla 1.4.2.1 Caudales de aire exterior, 
 en dm³/s (litros/s) por persona</p>
@@ -107,11 +121,11 @@ IDA4 | 5
 Como observación, indicar que para IDA3, el cálculo se suele aproximar bastante
 a 6 renovaciones/hora, valor típico que se consideraba hace años en este tipo de cálculos.
 
-Hay que tener también en cuenta que Si se permite fumar, los caudales serán el doble. 
+Hay que tener también en cuenta que si se permite fumar, los caudales serán el doble. 
 Si hay zonas delimitadas para fumadores, estas zonas consistirán en locales delimitados
 por cerramientos estancos de aire y en depresión con respecto a locales contiguos. 
 
-<ins> B. Método directo por calidad de aire percibido. Basado en informe CR 1752 (Método olfativo):</ins>
+###### B. Método directo por calidad de aire percibido. Basado en informe CR 1752 (Método olfativo):  
 
 <p style="text-align: center;">Tabla 1.4.2.2 Calidad de aire percibido, en decipols</p>
 
@@ -122,7 +136,7 @@ IDA2 | 1,2
 IDA3 | 2,0 
 IDA4 | 3,0 
 
-<ins> C. Método directo por concentración de CO2 en los locales</ins>: 
+###### C. Método directo por concentración de CO2 en los locales: 
 
 <p style="text-align: center;">Tabla 1.4.2.3 Concentración de CO2 en los locales</p>
 
@@ -135,9 +149,12 @@ IDA4 | 1.200
 
 *Concentración de CO2 (en partes por millón en volumen) por encima de la concentración en el aire exterior*
 
-En bares, restaurantes y cafeterías se recomienda el método por dilución del apartado E.
+En bares, restaurantes y cafeterías se recomienda el método por dilución del 
+[apartado E](#e-método-de-dilución).
 
-<ins> D. Método indirecto de caudal de aire por unidad de superficie. Para espacios no dedicados a ocupación humana permanente: </ins>
+###### D. Método indirecto de caudal de aire por unidad de superficie:  
+
+Para espacios no dedicados a ocupación humana permanente:
 
 <p style="text-align: center;">Tabla 1.4.2.4 Caudales de aire exterior por unidad 
 de superficie de locales no dedicados a ocupación humana permanente</p>
@@ -149,7 +166,9 @@ IDA2 | 0,83
 IDA3 | 0,55 
 IDA4 | 0,28 
 
-<ins> E. Método de dilución. </ins>
+<a id = "e-método-de-dilución"></a>
+
+###### E. Método de dilución:
 
 Se aplica cuando en un local existan emisiones conocidas de materiales contaminantes 
 específicos ➡ UNE EN 13779. Apartado 6.4.2.3.
@@ -214,23 +233,28 @@ Las condiciones que se deben cumplir son las siguientes:
 del aire de las categorías AE3 y AE4 no puede ser común a la expulsión del aire de las 
 categorías AE1 y AE2, para evitar la posibilidad de contaminación cruzada
 
-#### IT 1.-1.4.3 Exigencia de higiene
+#### IT-1.1.4.3 Exigencia de higiene
 
 Hay que tener en cuenta principalmente lo siguiente:
 - Preparación de agua caliente para usos sanitarios ➡ Según normativa higiénico-sanitaria.
 - Apertura de servicio para limpieza de conductos de aire:
     - Las redes de conductos deben estar equipadas de aperturas de servicio para permitir limpieza y desinfección.
     - Elementos de conductos deben ser desmontables
-    - Los falsos techos deben tener registros de inspección
+    - Los falsos techos deben tener registros de inspección  
 
-#### IT 1.-1.4.4 Exigencia de calidad del ambiente acústico: 
+
+<a id="it-1144-exigencia-de-calidad-del-ambiente-acustico"></a>
+
+#### IT-1.1.4.4 Exigencia de calidad del ambiente acústico
 
 Unicamente se dice que las instalaciones térmicas de los edificios deben cumplir 
-la exigencia del documento [**DB-HR Protección frente al ruido del Código Técnico de la Edificación**][3], 
-que les afecten.
+la exigencia del documento [**DB-HR Protección frente al ruido del Código Técnico de la Edificación**][3], que les afecten.  
 
-#### IT 1.2 EXIGENCIA DE EFICIENCIA ENERGÉTICA
-##### IT 1.-2.4.5.2 Recuperación de calor del aire de extracción
+<a id="it-12-exigencia-de-eficiencia-energetica"></a>
+
+### IT-1.2 EXIGENCIA DE EFICIENCIA ENERGÉTICA
+
+#### IT-1.2.4.5.2 Recuperación de calor del aire de extracción
 Lo más destacable de este apartado es que los sistemas de climatización de los edificios
 en los que el caudal de aire expulsado al exterior, por medios mecánicos, sea superior 
 a **0,28 m3/s**, se recuperará la energía del aire expulsado
@@ -238,28 +262,29 @@ a **0,28 m3/s**, se recuperará la energía del aire expulsado
 *Un apreciación: Durante años el valor del caudal de aire expulsado fue de 0,5 m³/s.*
 *El 24 de marzo de 2021, se modificó el reglamento para reducir dicho valor*
 
-#### IT 1.-2.4.6.4 Climatización de espacios abiertos.
+#### IT-1.2.4.6.4 Climatización de espacios abiertos.
 La climatización de espacios abiertos sólo podrá realizarse mediante la utilización 
 de energías renovables o residuales. No podrá utilizarse energía convencional para 
 la generación de calor y frío destinado a la climatización de estos espacios.
 
 
-##### Varios:
-Para terminar este Post, como curiosidad, destacar que a finales de 2022, como
-consecuencia de la escasez de gas natural debido a la guerra de Ucrania, 
-y para intentar reducir el consumo energético, según compromiso adquirido con la UE
-se introdujo el siguiente texto en la **IT 3.8.4** relativo a la apertura de puertas:
-Los edificios y locales con acceso desde la calle dispondrán de un sistema de cierre 
-de puertas adecuado, el cual podrá consistir en un sencillo brazo de cierre automático 
-de las puertas, con el fin de impedir que éstas permanezcan abiertas permanentemente, 
-con el consiguiente despilfarro energético por las pérdidas de energía al exterior, 
-cuando para ello se requiera consumo de energía convencional para la generación 
-de calor y frío por parte de los sistemas de calefacción y refrigeración.
+#### Varios:
+Para terminar este post, como curiosidad, destacar que a finales de 2022, a
+consecuencia de la escasez de gas natural debido a la guerra de Ucrania 
+y, para intentar reducir el consumo energético según compromiso adquirido con la UE,
+se introdujo el siguiente texto en la **IT 3.8.4** relativo a la apertura de puertas
+(ojo a la palabra *"despilfarro"*!):
+> *Los edificios y locales con acceso desde la calle dispondrán de un sistema de cierre 
+> de puertas adecuado, el cual podrá consistir en un sencillo brazo de cierre automático 
+> de las puertas, con el fin de impedir que éstas permanezcan abiertas permanentemente, 
+> con el consiguiente despilfarro energético por las pérdidas de energía al exterior, 
+> cuando para ello se requiera consumo de energía convencional para la generación 
+> de calor y frío por parte de los sistemas de calefacción y refrigeración.*
 
 ---
 Si crees que esta publicación se puede mejorar, encuentras alguna errata,
 o piensas que algún contenido no expresa fielmente el contenido del RITE,
-puedes enviarme tus comentarios a mi dirección de [e-mail][4].
+puedes enviarme tus comentarios a mi dirección de [e-mail][5].
 </div>
 
 *[RITE]: Reglamento de Instalaciones Térmicas en Edificios
@@ -267,4 +292,5 @@ puedes enviarme tus comentarios a mi dirección de [e-mail][4].
 [1]:https://www.boe.es/buscar/act.php?id=BOE-A-1997-8669
 [2]:https://www.boe.es/buscar/act.php?id=BOE-A-2007-15820&p=20220802&tn=1#it1-2
 [3]:https://www.codigotecnico.org/pdf/Documentos/HR/DBHR.pdf
-[4]:mailto:sesaba23@gmail.com
+[4]:https://www.boe.es/buscar/act.php?id=BOE-A-1997-8669&p=20041113&tn=1#aniii
+[5]:mailto:sesaba23@gmail.com

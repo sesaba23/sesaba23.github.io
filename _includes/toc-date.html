@@ -20,13 +20,12 @@
             <li class="divider"></li>
 
             {% for collection in site.collections %}
-                <!-- <p>{{ collection.label }}</p> -->
+                {% if collection.subject %}
+                    <p style="font-weight: bold; padding-left: 12px;">{{ collection.subject }}:</p>
+                {% endif %}
                 {% if collection.output %}
                     {% if collection.label == "posts" %}
                         {% assign reversed_posts = site[collection.label] | reverse %}
-                    {% elsif collection.label == "posts_ingenieria" %}
-                        {% assign reversed_posts = site[collection.label] %}
-                        <p style="font-weight: bold; padding-left: 12px;">Ingeniería:</p>
                     {% else %}
                         {% assign reversed_posts = site[collection.label] %}
                     {% endif %}

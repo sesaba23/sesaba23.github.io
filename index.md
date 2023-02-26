@@ -6,9 +6,11 @@ permalink: /
 layout: post
 ---
 
+<div markdown=1 style="text-align: justify">
+
 Esta web es de reciente creación y, por tanto, en cuanto a su estructura, **está en construcción**.
 En relación a su contenido, poco a poco, se irán publicando artículos de diversa temática.
-En esta fase inicial, la mayoría de la publicaciones estarán relacionadas con el ámbito
+En esta fase inicial, la mayoría de las publicaciones estarán relacionadas con el ámbito
 de la ingeniería y las instalaciones industriales.
 
 Aunque es meramente informativo y puede estar sujeto a modificaciones, los próximos
@@ -27,6 +29,8 @@ artículos tratarán sobre:
 Poco a poco iré añadiendo más contenido.
 
 Gracias por tu paciencia.
+
+</div>
 
 --
 

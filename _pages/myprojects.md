@@ -31,7 +31,8 @@ y que está desarrollado en Django, utilizando las librerias [Pandas][10] y [Ope
 Esta herramienta está integrada en mi Proyecto Web y puedes acceder a ella si estás
 registrado.
 : Si crees que te puede ser util y quieres que la 
-adapte a tu empresa o necesidades personales, puedes [contactar][9].
+adapte a tu empresa o necesidades personales, puedes [contactar conmigo][9].  
+
 ![imagen]({{ site.url }}/assets/images/svv-proyecto.jpeg) 
 
 Herramientas de asistencia para proyectos de eficiencia energética de A.P.:

@@ -91,6 +91,8 @@ Sin embargo, necesitan **proyecto** y **Certificado de Dirección Técnica** en 
 Además del Proyecto y el Certificado de Dirección Técnica, necesitan la documentación que se
 resumen en la siguiente tabla:
 
+<a id="apartado3-3"></a>
+
 |**Apartado**|**Documentación**|**Contenido**|**Entidad**|**Normas**|
 |:-----:||:--------------------------|:--------------------|:--------------:|:--------------|
 |3.3|Pruebas y verificaciones| estanquidad|Empresa instaladora|UNE 60670-8 o UNE 60620|
@@ -141,7 +143,7 @@ más de un año se actuará de igual forma que en las nuevas instalaciones.
 
 ##### Instalaciones receptoras individuales SIN contrato de suministro domiciliario:
 La empresa instaladora encargada del montaje realizará las pruebas y verificaciones 
-para la entrega de la instalación descritas en el apartado 3.3 y emitirá, 
+para la entrega de la instalación descritas en el [apartado 3.3](#apartado3-3) y emitirá, 
 en todos los casos, el correspondiente certificado de instalación, entregando una copia al titular.
 
 <br>
