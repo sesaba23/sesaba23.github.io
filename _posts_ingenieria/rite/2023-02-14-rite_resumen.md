@@ -11,6 +11,9 @@ published: true
 *Publicado: {{ page.date | date_to_string}} \| Autor: {{ page.author }}*
 
 ---
+
+<div markdown=1 style="text-align: justify">
+
 > ##### AVISO
 >
 > Este post sólo pretende ser una guía-resumen de aplicación de la IT-1 del 
@@ -20,7 +23,7 @@ published: true
 {: .block-warning }
 
 <br>
-<div markdown=1 style="text-align: justify">
+
 
 En el siguiente artículo, voy tratar de resumir la IT-1, diseño y dimensionado,
 del RITE. Además, puede se utilizada como una pequeña **guía que facilite el diseño**

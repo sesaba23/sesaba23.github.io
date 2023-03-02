@@ -10,6 +10,8 @@ published: true
 *Publicado: {{ page.date | date_to_string}} \| Autor: {{ page.author }}*
 
 ---
+<div markdown=1 style="text-align: justify">
+
 > ##### AVISO
 >
 > Este post pretende ser una guía-resumen de aplicación de las operaciones de
@@ -23,9 +25,6 @@ published: true
 >  
 {: .block-warning }
 
-           
-<div markdown=1 style="text-align: justify">
-
 <br>
 A lo largo de su vida útil, todas las instalaciones necesitan un mantenimiento adecuado para que funcionen
 correctamente. Esto es cierto en cualquier tipo de instalación, si bien
@@ -33,11 +32,15 @@ en <ins>instalaciones que afectan a la seguridad de las personas</ins>, cobra ma
 Por este motivo, se han aprobado diversos téxtos que establecen reglamentariamente cuáles
 son las **operaciones de mantenimiento** imprescindibles, así como su régimen de inspecciones.  
 
-Tabla de contenidos:
+<div markdown=1 style="border-width: 1px; border-style:dotted; border-color:grey; padding: 12px; background-color:lightgray">
+**Tabla de contenidos:**
+
 1. [Reglamento de Instalaciones Eléctricas en Baja Tensión (REBT)](#rebt)
 2. [Reglamento de aparatos de elevación y manutención, ITC AEM 1, Ascensores (AEM)](#aem)
 3. [Reglamento de Instalaciones de Protección Contra Incendios (RIPCI)](#ripci)
+</div>
 
+<br>
 Al igual que en entradas anteriores, voy a tratar de resumir de una manera breve y clara
 las operaciones de mantenimiento y las inspecciones necesarias según el tipo de instalacción.
 
