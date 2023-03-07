@@ -149,8 +149,10 @@
     font-family: Georgia, serif;
 }
 .book.font-family-1 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Merriweather, Helvetica, Arial, sans-serif;
+    
 }
+/* "Helvetica Neue", Helvetica, Arial, sans-serif; */
 
 /* Render wide tables */
 
