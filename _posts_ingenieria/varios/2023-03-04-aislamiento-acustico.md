@@ -370,7 +370,7 @@ de público del propio local, debe cumplir los parámetros indicados en la **tab
 De la **tabla 3.3** elegimos características del forjado, la tabiquería, 
 el suelo flotante y el techo suspendido:
 
-Tabiequería de fábrica con apoyo directo en forjado.
+Tabiquería de fábrica con apoyo directo en forjado.
 
 |Elemento base (Eb) Forjado||Suelo Flotante||Techo Suspendido|
 |:--------------------:|:--:|:----:|:--:|:--------:|
@@ -393,7 +393,7 @@ que deben revestirse con elementos constructivos con un valor R<sub>A</sub> $\ge
 
 Para satisfacer los valores límite del tiempo de reverberación requeridos en
 restaurantes y comedores, puede elegirse uno de los dos métodos siguientes:
-1. Método de cálculo general a partir del vilumen y de la absorción acústica
+1. Método de cálculo general a partir del volumen y de la absorción acústica
 del recinto, según apartado 3.2.2.
 2. **Método de cálculo simplificado** según el apartado 3.2.3. Este va a ser el
 método elegido y consiste en emplear un tratamiento absorbente acústico aplicado en el techo.
@@ -472,7 +472,7 @@ Toda nueva instalación, establecimiento o actividad portuaria, industrial, come
 |:------------------|:-----------------:|
 |Sectores del territorio con predominio de suelo de uso residencial|45 dBA|
 
-Ninguna instalación, establecimiento, actividad industrial, comercial, de almacenamiento, deportivo-recreativa o de ocio podrá transmitir a los locales colindantes en función del uso de éstos, niveles de ruido superiores a los establecidos en la ***tabla B2, del anexo III**:
+Ninguna instalación, establecimiento, actividad industrial, comercial, de almacenamiento, deportivo-recreativa o de ocio podrá transmitir a los locales colindantes en función del uso de éstos, niveles de ruido superiores a los establecidos en la **tabla B2, del anexo III**:
 
 |Uso del local colindante|Tipo de Recinto|L<sub>K,n</sub>|
 |:---------------------------|:------------------|:-----------------:|
@@ -486,11 +486,11 @@ Ninguna instalación, establecimiento, actividad industrial, comercial, de almac
 ### 4. Resolución práctica
 
 La actividad que se va a desarrollar en el establecimiento es la de BAR-RESTAURANTE.
-El recinto de zona de público cuenta con una superficie total de 70 m2; 
+El recinto de bar-restaurante cuenta con una superficie total de 70 m2; 
 en el mismo se incluye la zona de acceso y la barra, por lo que la zona de uso
 público tendrá una superficie aproximada de 60 m2. Si bien hay separación física 
 entra la zona de consumiciones en barra y la zona de restaurante, a efectos acústicos
-se considera un único recinto con un aforo de 50 personas. 
+se considera un único recinto con un aforo de 50 personas.  
 Las principales fuentes de ruido provendrán de las conversaciones y tránsito de 
 clientes, el sistema de climatización, equipamiento de la barra y cocina y equipos
 de reproducción audiovisual de pequeña potencia, exclusivamente televisiones e 
@@ -500,39 +500,296 @@ Sin embargo, dado que la zona de la cocina es un recinto independiente
 Todos los equipos de reproducción audiovisual están limitados para que su potencia 
 sonora total no supere 65 dB, aportándose certificado de esta circunstancia.
 
+**Condicionantes**: 
+- La estructura del edificio en el que está ubicado el local es de hormigón con 
+forjado unidireccional de bovedilla cerámica y capa de compresión, con un canto 
+aproximado de 300 mm y una densidad de 350 kg/m2.
+
+- Puesto que la actividad se va a desarrollar dentro del horario nocturno 
+(de 8:00 a 02:00 horas), se prevé que la mayor limitación acústica venga dada 
+por el nivel sonoro máximo en dormitorios en periodo nocturno, es decir, 25 dBA.
+
 Tabla resumen de los principales focos de emisión sonora:
 
 |Foco emisor|Unidades|L<sub>i</sub>(dB)|L<sub>t</sub>(dB)|
 |:----------------------|:-----------------:|:-----------------------------:|:-------------------------------:|
-|Cafetera 2 grupos|1|70||
-|Equipos Climatización|3|55||
-|Equipos audiovisuales|1|60||
-|Personas (conversación distendida)|40|68||
-|**Ruido TOTAL generado**||**L<sub>T</sub>(dB):**||
+|Cafetera 2 grupos|1|75|75|
+|Equipos Climatización|3|55|59,77|
+|Equipos audiovisuales|1|60|60|
+|Personas (conversación distendida)|50|68|85|
+|**Ruido TOTAL generado**||**L<sub>T</sub>(dB):**|**85,43**|
 
 Denotar que el nivel de ruido generado en la zona de público podría considerarse como
-recinto ruidoso y, por tanto, estaría excluida del ámbito de aplicación del DB-HR. 
+recinto ruidoso y, por tanto, estaría <ins>excluida</ins> del ámbito de aplicación del DB-HR.   
 No obstante, dado que es una situación muy común y a falta de información más
 precisa, va a tratarse de justificar el diseño y construcción del aislamiento 
 acústico conforme el DB como si un recinto de actividad se tratase.
 Al final se llegará a la conclusión de que el establecimiento reune las condiciones 
 acústicas necesarias que impiden la transmisión de ruidos y vibraciones al entorno, 
-evitando molestias al vecindario.
+evitando molestias al vecindario.  
 En cualquier caso, durante la realización del proyecto de actividad, es conveniente
-incluir un estudio acústico específico que proponga el acondicionamiento acústico
+incluir un estudio específico que proponga el acondicionamiento acústico
 necesario que permita cumplir los valores límite de ruido regulados 
 el RD 1367/2007, e incluya referencias a la Ordenanzas Municipales de Protección
 del Medio Ambiente en caso de existir y sus valores límite si estos fueren 
 más restrictivos.
 
+Tabla Resumen **valores límite de aislamiento** considerados:
 
-La estructura del edificio en el que está ubicado el local es de hormigón con 
-forjado unidireccional de bovedilla cerámica y capa de compresión, con un espesor 
-aproximado de 300 mm y una densidad de 350 kg/m2.
+|Recinto Emisor|Recinto Receptor|Descripción|Situación|Aislamiento|
+|:--------|:------|:-----------|:--------|:----------|
+|Actividad|Protegidos|Colindantes vertical u horizontalmente|Viviendas <br> Oficina|(D<sub>nT,A</sub>) $\ge$ 55 dBA|
+|Actividad|Habitables|Colindantes vertical u horizontalmente|Portal <br> Comercio|(D<sub>nT,A</sub>) $\ge$ 45 dBA|
+|Actividad|Habitables|Colindantes con otro edificio|Comercio|(D<sub>2m,nT,Atr</sub>) $\ge$ 40 dBA <br> Conjunto cerramientos de ambos edificios: (D<sub>nT,A</sub>) $\ge$ 50 dBA|
+|Actividad|Protegido <br> Habitable|Colindantes vertical u horizontalmente o arista horizontal común|Viviendas (1)|L'<sub>nT,w</sub> $\le$ 60 dBA|
 
-Puesto que la actividad se va a desarrollar dentro del horario nocturno 
-(de 8:00 a 02:00 horas), se prevé que la mayor limitación acústica venga dada 
-por el nivel sonoro máximo en dormitorios en periodo nocturno, es decir, 25 dBA.
+*(1) Entre dos edificios, no existen exigencias de aislamiento a ruido de impactos entre recintos colindantes, ni con una arista horizontal común.*
+
+
+Valor Límite del **tiempo de Reverberación**: T $\le$ 0,9 sg
+
+Tabla resumen de las **características mínimas que deben tener los elementos constructivos**
+teniendo en cuenta que los elementos de separación verticales son **TIPO 1**:
+
+|Elemento|m (kg/m2)|R<sub>A</sub> (dBA)|$\Delta$R<sub>A</sub> (dBA)|$\Delta$L<sub>w</sub>|
+|:-------|:-------:|:-----------------:|:-------------------------:|:-------------------:|
+|Eb vertical|350|55|-|-|
+|Tr|-|-|8+4|-|
+|Medianerías|-|45|-|-|
+|Tabiques|70|35|-|-|
+|Eb Forjado|500|60|-|-|
+|S<sub>F</sub>|-|4|-|17|
+|T<sub>s</sub>|-|-|7|-|
+|C. ventilación|-|33|-|-|
+
+
+
+###### Descripción de la solución adoptada
+
+En la siguiente tabla se enumeran los elementos de separaciones veticales
+y horizontales existentes en el local en bruto y aquellos que se proyectan
+para alcanzar las características y valores de aislamiento mínimos descritos en
+apartados anteriores:
+
+**Medianerías con oficinas**:
+
+|Cód.|Elemento|Descripción|Existe|m(kg)|R<sub>A</sub>(dBA)|
+|:-----|:-------|:----------|:----:|:---:|:----------------:|
+|M1|Medianería de una hoja, ladrillo cerámico|Enl15 + LP240 + Enl|Sí|313|50|
+|AA24|Trasdosado|Sandwich acústico yeso laminado N13 encintado|No|275|-|
+|**M1 + AA23**|**Medianería + Trasdosado**||**--**|**588**|**$\ge$70**|
+
+**Medianerías con Comercio**:
+
+|Cód.|Elemento|Descripción|Existe|m(kg)|R<sub>A</sub>(dBA)|
+|:-----|:-------|:----------|:----:|:---:|:----------------:|
+|M1|Medianería de una hoja, ladrillo cerámico|Enl15 + LP240 + Enl|Sí|313|50|
+
+**Forjados**:
+
+|Cód.|Elemento|Descripción|Existe|m(kg)|R<sub>A</sub>(dBA)|
+|:-----|:-------|:----------|:----:|:---:|:----------------:|
+|F1|Forjado losa maciza hormigón convencional|LM300|Sí|750|67|
+|AA30|Techo suspendido|Sandwich acústico e=15mm yeso laminado + guarnecido de yeso 15mm|No|40|-|
+|**F1 + AA30**|**Forjado + techo suspendido**||**--**|**790**|**$\ge$67**|
+
+**Suelos**:
+
+|Cód.|Elemento|Descripción|Existe|m(kg)|R<sub>A</sub>(dBA)|$\Delta$L<sub>w</sub>$\ge$20|
+|:-----|:-------|:----------|:----:|:---:|:----------------:|
+|**AA01**|**Suelo flotante**|**PE reticulado con capa de compresión de 5 cm sobre pavimento**|No|**--**|**50**|**20**|
+
+**Tabiquería**:
+
+|Cód.|Elemento|Descripción|Existe|m(kg)|R<sub>A</sub>(dBA)|
+|:-----|:-------|:----------|:----:|:---:|:----------------:|
+|M1|Medianería de dos hojas, ladrillo cerámico|Enl15 +LH70+ AT+ LH70+ Enl15|No|170|45|
+
+
+
+**Absorción**:
+
+Aplicando la fórmula para el método simplificado para una superficie de 70 m2
+de la zona de público y una altura libre de 3 metros necesitamos una absorción:
+
+$$ \alpha_{m,t} = 3·\left(0,18 - {0,12 \over 70}\right) = 0,535 $$
+
+Para placas de yeso laminado con un porcentaje de perforación entre el 10 y el 20%,
+1,5 cm de espesor con cámara de aire mínima de 15 cm el **coeficiente de absorción es 0,57**,
+por lo que estaríamos cumpliendo con la prescripción para tiempo de reverberación.
+
+
+Las características de los elementos existentes del local en bruto se obtienen 
+la base de datos de la [Herramienta de cálculo del DB-HR][3] facilitada en la página web
+www.codigotecnico.org.  
+Las características de las soluciones constructivas proyectadas se han obtenido
+del manual de soluciones v2011 publicado por la empresa [**Danosa**][4].
+
+Teniendo en cuenta lo anterior y comprobando los límites de inmisión establecidos
+en el RD 1367/2007, concluimos lo siguiente:
+
+1. El ruido total generado por la actividad en la zona de público se prevé que sea
+un máximo de **85,43 dBA** con aforo máximo.
+2. La reducción de presión sonora total en el forjado con el techo suspendido
+a instalar será de **67 dBA**.
+3. La reducción de presión sonora total en el medianería con trasdosado a instalar será de **70 dBA**.
+4. El ruido transmitido máximo permitido en DORMITORIOS en periodo noche es de 25 dBA.
+5. El ruido transmitido máximo permitido en OFICINAS en periodo noche es de 40 dBA.
+
+<div markdown=1 style="border-width: 1px; border-style:dotted; border-color:grey; padding: 12px; background-color:lightgray">
+Podemos concluir que el ruido transmitido por la actividad al interior del **DORMITORIO** es:  
+**85,43 dBA - 67 dBA = 18,43 dBA**, por lo que CUMPLIRÍAMOS CON CRECES en este sentido.
+
+El ruido transmitido por la actividad a través de medianería con trasdosado es:  
+**85,43 dBA - 70 dBA = 15,43 dBA**, por lo que CUMPLIRÍAMOS en la zona de **OFICINAS.**
+</div>
+
+###### ANEJO K.1 FICHA JUSTIFICATIVA OPCIÓN SIMPLIFICADA
+
+<table>
+    <tr style="font-weight: bold; text-align: left">
+        <td colspan="5">Tabiquería (apartado 3.1.2.3)</td>
+    </tr>
+    <tr style="font-weight: bold; text-align: center">
+        <td rowspan="2" style="width: 65%; text-align: left">Tipo</td>
+        <td colspan="5">Características de</td>
+    </tr>
+    <tr style="font-weight: bold; text-align: center">
+        <td colspan="2">proyecto</td>
+        <td colspan="2">exigidas</td>
+    </tr>
+    <tr style="text-align: left">
+        <td rowspan="2">Dos hojas, ladrillo cerámico Enl15+LH70+AT+LH70+Enl15</td>
+        <td>m (kg/m2) = </td>
+        <td>170</td>
+        <td>$ \ge $</td>
+        <td>70</td>
+    </tr>
+    <tr style="text-align: left">
+        <td>R<sub>A</sub>(dBA)=</td>
+        <td>45</td>
+        <td>$ \ge $</td>
+        <td>35</td>
+    </tr>
+</table>
+
+<table>
+    <tr style="font-weight: bold; text-align: left">
+        <td colspan="7">Elementos de separación verticales entre recintos (apartado 3.1.2.3.4)</td>
+    </tr>
+    <tr style="text-align: left">
+        <td colspan="7">Solución de elementos de separación verticales entre: bar-restaurante y oficina</td>
+    </tr>
+    <tr style="font-weight: bold; text-align: center">
+        <td colspan="2" rowspan="2" style="text-align: left; width: 40%;">Elementos constructivos</td>
+        <td colspan="1" rowspan="2" style="width: 25%;">Tipo</td>
+        <td colspan="4" style="width: 35%;">Características de</td>
+    </tr>
+    <tr style="font-weight: bold; text-align: center">
+        <td colspan="2">proyecto</td>
+        <td colspan="2">exigidas</td>
+    </tr>
+    <tr style="text-align: left">
+        <td rowspan="3">Elemento de separación vertical</td>
+        <td rowspan="2">Elemento base</td>
+        <td rowspan="2">Una hoja, ladrillo cerámico Enl15+LP240+Enl15</td>
+        <td>m (kg/m2)=</td>
+        <td>588</td>
+        <td>$ \ge $</td>
+        <td>350</td>
+    </tr>
+    <tr style="text-align: left">
+        <td>R<sub>A</sub>(dBA)=</td>
+        <td>50</td>
+        <td>$ \ge $</td>
+        <td>35</td>
+    </tr>
+    <tr style="text-align: left">
+        <td>Trasdosado por un lado</td>
+        <td>Sandwich acústico yeso laminado N13 encintado</td>
+        <td>$\Delta$R<sub>A</sub>(dBA)=</td>
+        <td>20</td>
+        <td>$ \ge $</td>
+        <td>12</td>
+    </tr>
+</table>
+
+<table>
+    <tr style="font-weight: bold; text-align: left">
+        <td colspan="7">Elementos de separación horizontales entre recintos (apartado 3.1.2.3.5)</td>
+    </tr>
+    <tr style="text-align: left">
+        <td colspan="7">Solución de elementos de separación horizontales entre: bar-restaurante y vivienda</td>
+    </tr>
+    <tr style="font-weight: bold; text-align: center">
+        <td colspan="2" rowspan="2" style="text-align: left; width: 40%;">Elementos constructivos</td>
+        <td colspan="1" rowspan="2" style="width: 25%;">Tipo</td>
+        <td colspan="4" style="width: 35%;">Características de</td>
+    </tr>
+    <tr style="font-weight: bold; text-align: center">
+        <td colspan="2">proyecto</td>
+        <td colspan="2">exigidas</td>
+    </tr>
+    <tr style="text-align: left">
+        <td rowspan="5">Elementos separación horizontal</td>
+        <td rowspan="2">Forjado</td>
+        <td rowspan="2">Losa maciza, hormigón convencional LM 30cm</td>
+        <td>m (kg/m2)=</td>
+        <td>750</td>
+        <td>$ \ge $</td>
+        <td>500</td>
+    </tr>
+    <tr style="text-align: left">
+        <td>R<sub>A</sub>(dBA)=</td>
+        <td>67</td>
+        <td>$ \ge $</td>
+        <td>60</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Suelo Flotante</td>
+            <td rowspan="2">PE reticulado con capa de compresión de 5 cm sobre pavimento</td>
+            <td>$\Delta$R<sub>A</sub>=</td>
+            <td>50</td>
+            <td>$ \ge $</td>
+            <td>4</td>
+    </tr>
+    <tr style="text-align: left">
+        <td>$\Delta$L<sub>w</sub>(dBA)=</td>
+        <td>20</td>
+        <td>$ \ge $</td>
+        <td>17</td>
+    </tr>
+    <tr style="text-align: left">
+        <td>Techo suspendido</td>
+        <td>Sandwich acústico e=15mm yeso laminado + guarnecido de yeso 1,5</td>
+        <td>$\Delta$R<sub>A</sub>(dBA)=</td>
+        <td>7</td>
+        <td>$ \ge $</td>
+        <td>7</td>
+    </tr>
+</table>
+
+<table>
+    <tr style="font-weight: bold; text-align: left">
+        <td colspan="5">Medianerías. (apartado 3.1.2.4)</td>
+    </tr>
+    <tr style="font-weight: bold; text-align: center">
+        <td rowspan="2" style="width: 65%; text-align: left">Tipo</td>
+        <td colspan="5">Características de</td>
+    </tr>
+    <tr style="font-weight: bold; text-align: center">
+        <td colspan="2">proyecto</td>
+        <td colspan="2">exigidas</td>
+    </tr>
+    <tr style="text-align: left">
+        <td rowspan="1">Medianería de una hoja, ladrillo cerámico Enl15 + LP240 + Enl</td>
+            <td>R<sub>A</sub>(dBA)=</td>
+            <td>50</td>
+            <td>$ \ge $</td>
+            <td>45</td>
+    </tr>
+    
+</table>
 
 
 <br>
@@ -542,6 +799,7 @@ Espero que podáis sacar provecho a este post.
 Si crees que esta publicación se puede mejorar, encuentras alguna errata,
 o piensas que algún contenido no expresa adecuadamente el contenido normativo,
 puedes enviarme tus comentarios a mi dirección de [e-mail][11].
+Se aceptan sugerencias y catálogos de distintos fabricantes de aislamientos.
 </div>
 
 *[CTE]: Código Técnico de la Edificación 
@@ -552,7 +810,8 @@ puedes enviarme tus comentarios a mi dirección de [e-mail][11].
 
 [1]:https://www.codigotecnico.org/DocumentosCTE/ProteccionRuido.html
 [2]:https://www.boe.es/eli/es/rd/2007/10/19/1367/con
-
+[3]:https://www.codigotecnico.org/Programas/HerramientaHR.html
+[4]:https://www.danosa.com/es-es/
  
 [11]:mailto:sesaba23@gmail.com
 
