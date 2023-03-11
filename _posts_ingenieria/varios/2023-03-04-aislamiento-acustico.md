@@ -14,14 +14,15 @@ published: true
 
 > ##### AVISO
 >
-> Este post pretende ser una guía-resumen de aplicación de las operaciones de
-> mantenimiento de distintas instalaciones, según los siguientes Reglamentos:
-> - [CTE Documento Básico Protección Contra el Ruido][1]
+> En la siguiente publicación se analizan las distintas soluciones acústicas
+> que permiten dar cumplimiento a los siguientes Reglamentos:
+> - [CTE Documento Básico Protección Contra el Ruido][1].
 > - [Real Decreto 1367/2007, de 19 de octubre, por el que se desarrolla la Ley 37/2003, 
 > de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos
-> de calidad y emisiones acústicas][2]  
-> Ten en cuenta que dichos textos son los únicos con validez legal. Puedes consultar 
-> su contenido pinchando sobre cada Reglamento.    
+> de calidad y emisiones acústicas][2].  
+> 
+> Dada la complejidad y lo extenso de la materia, se propondrá un supuesto 
+> práctico  como base para exponer los conceptos fundamentales.    
 >  
 {: .block-warning }
 
@@ -37,10 +38,10 @@ y al ambiente exterior hasta ciertos límites.
 
 
 Este texto se va a estructurar en cuatro partes: primeramente, se propondrá la situación 
-que se pretende resolver; el siguiente paso será establecer las limitaciones y condiciones
-que se deben cumplir, conforme a normativa; posteriormente, se analizará brevemente
-la estrategia a seguir conforme el DB-HR; por último, sepropondrá una solución práctica
-que puede ser reutilizada en proyecto de actividades de características similares.
+que se pretende resolver; en el siguiente paso, se enumerarán las limitaciones y condiciones
+que se deben cumplir conforme a normativa; posteriormente, se analizará brevemente
+la estrategia a seguir; por último, se plantea una solución acústica
+que puede ser reutilizada en proyectos de actividades de características similares.
 
 <div markdown=1 style="border-width: 1px; border-style:dotted; border-color:grey; padding: 12px; background-color:lightgray">
 **Tabla de contenidos:**
@@ -58,42 +59,34 @@ Empecemos:
 
 ### 1. Descripción de la situación de partida 
 
-Nuestro objetivo es diseñar y definir las adaptaciones necesarias para conseguir
-un adecuado aislamiento acústico de un **local comercial** destinado a **BAR-RESTAURANTE**.
-Para ello, vamos a considerar las siguientes características del local y situacciones:
-- Local comercial en zona de uso residencial,
-- Situado en planta baja de un edificio de viviendas de varias plantas,
-- En el piso inmediatamente superior hay unicamente viviéndas,
+Nuestro objetivo es diseñar y definir las soluciones constructivas necesarias 
+para conseguir un adecuado aislamiento acústico de un **local comercial** 
+destinado a **BAR-RESTAURANTE**.
+Para ello, vamos a considerar las siguientes situaciones:
+- Local comercial en bruto, en zona de uso residencial,
+- Situado en planta baja de un edificio de viviendas,
 - En planta baja colinda en un extremo con un local comercial y el portal de acceso
-a las viviendas; en el otro extermo, con un local de oficinas; este último contenido
-en otro edificio,
-- NO existen plantas inferiores,
-- El local cuenta con una superficie de 120 m^2 de dimensiones 8 metros de fachada
-y 15 metros de fondo,
+a las viviendas; en el otro extermo, está adosado a un local de oficinas de otro edificio,
+- No existen plantas inferiores,
+- El local cuenta con una superficie de 120 m<sup>2</sup>,
+- Dimensiones: 8 metros de fachada y 15 metros de fondo,
 - Altura libre a forjado: 3,5 metros,
-- En el interior existen varios recintos; sin embargo, a efectos acústicos, sólo
-vamos a considerar los siguientes: zona de público (70 m2) y zona de cocina (20 m2);
-el resto de recintos que corresponden a módulo de aseos y vestuarios, almacén, etc.
-no si consideran en este artículo.
-- El local está en bruto, por lo que tenemos de libertad para ejecutar las obras
-necesarias considerando los paramentos verticales y horizontales existentes, de manera
-que la envolvente resultante, permita alcanzar los valores acústicos necesarios, 
-incluyendo la fachada.
-
+- A efectos acústicos sólo vamos a considerar los siguientes recintos: 
+zona de público (70 m<sup>2</sup>) y de cocina (20 m<sup>2</sup>); el resto,
+corresponden a módulo de aseos y vestuarios, almacén, etc.
 
 <a id="parte2"></a>
 
 ### 2. Análisis normativo
 
-Para poder estudiar y diseñar adecuadamente el aislamiento acústico 
-de un local con las características definidas en el apartado anterior,
-es necesario conocer el marco legal al que está sometida esta instalación.
+Para poder estudiar y diseñar una solución acústica efectiva, es necesario 
+conocer el marco legal aplicable.
 
 #### Código Técnico de la Edificación, Documento Básico de Protección frecte al Ruido (DB-HR)
-Primeramente habrá que conocer las condiciones de diseño y dimensionado
-del propio aislamiento acústico que necesitamos.
 
-En el **Anejo A, Terminología** del DB, hay una serie de definiciones que tenemos que tener en cuenta para poder diseñar el aislamiento de nuestro establecimiento:
+Es fundamental tener presente las condiciones de diseño y dimensionado
+reguladas en el DB-HR. Pero primero, conviene tener presente los principales términos
+usados en el Reglamento. El **Anejo A, Terminología**, define los siguientes:
 
 - **Recinto de actividad**: Aquellos recintos, en los edificios de uso residencial (público y privado), hospitalario o administrativo, en los que se realiza una actividad distinta a la realizada en el resto de los recintos
 del edificio en el que se encuentra integrado, **siempre que el nivel medio de presión sonora estandarizado, ponderado A (L<sub>A</sub>), del recinto sea $\ge$ 70 dBA**. Por ejemplo, actividad comercial, de pública concurrencia, etc.
@@ -116,16 +109,8 @@ dicho recinto. A efectos de este DB, el recinto del ascensor no se considera un 
 |Cualquier otro con un uso asimilable a los anteriores|X||
 |Aquellos no destinados al uso permanente de personas o cuya ocupación, por ser ocasional o excepcional y por ser bajo el tiempo de estancia, sólo exige unas condiciones de salubridad adecuadas. En esta categoría se incluyen explícitamente como no habitables los  trasteros, las cámaras técnicas y desvanes no acondicionados, y sus zonas comunes|||
 
-El **DB-HR** se centra en las condiciones de diseño, así como en valores límite de distintos parámetros relacionados con el aislamiento y reverberación. 
-El objetivo de dichos parámetros es reducir los niveles
-de ruido que se transmiten entre espacios o recintos, ya sea desde o hacia el
-ambiente exterior, o entre estancias interiores.  
-Si embargo, estos valores límites que detallaremos en el siguiente apartado, 
-<ins>suponen una condición necesaria pero no suficiente</ins>.  
-
-###### Procedimiento de verificación
-
-Para **satisfacer las exigencias del CTE** en lo referente a protección contra el ruido se deben tener en cuenta las siguientes condiciones:  
+Para **satisfacer las exigencias del  DB-HR** se deben tener en cuenta 
+las siguientes condiciones:  
 
 |Letra|Condición|Notación|Apartado|Unidades|
 |:-------:|:------------|:--------:|:----------:|:----------:|
@@ -141,41 +126,38 @@ deben seguirse la siguiente **secuencia de verificaciones**:
 |a|Aislamiento a ruido aéreo y de impactos|[Opción simplificada: 3.1.2](#3-1-2) <br> Opción General: 3.1.3|
 |b|Reverberación y absorción acústica|[3.2](#3-2)|
 |c|Ruido y vibraciones de instalaciones|[3.3](#3-3)|
-|d|Productos de la construcción|[4](#4)|
-|e|Condiciones de construcción|[5](#5)|
-|f|Mantenimiento y conservación|[6](#6)|
+|d|Productos de la construcción|[4]|
+|e|Condiciones de construcción|[5]|
+|f|Mantenimiento y conservación|[6]|
 ||Justificación documental en proyecto|Ficha [Anejo K](#K)
 
+<br>
+Los valores que hemos detallado <ins>suponen una condición necesaria pero no suficiente</ins>. También, debemos tener en cuenta los valores límite del RD 1367/2007.  
 
 #### Real Decreto 1367/2007
 
-Para diseñar adecuadamente el aislamiento de un establecimiento hay que remitirse como regla general a la Ley del Ruido y, de manera particular al [**Real Decreto 1367/2007**, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas][2].
-Concretamente, es de especial relavancia en el análisis de nuestro establecimiento el [**Artículo 24. Valores límite de inmisión de ruido aplicables a nuevas infraestructuras portuarias y a nuevas actividades**](#articulo24). Estos valores suponen una limitación adicional que hay que tener en cuenta en nuestro diseño y que se comentarán en el siguiente apartado.
+Para conocer los valores límite, hay que remitirse al 
+[**Real Decreto 1367/2007**, de 19 de octubre, por el que se desarrolla la Ley 37/2003, de 17 de noviembre, del Ruido, en lo referente a zonificación acústica, objetivos de calidad y emisiones acústicas][2].
+Concretamente, es de especial relavancia el [**Artículo 24, valores límite de inmisión de ruido aplicables a nuevas infraestructuras portuarias y a nuevas actividades**](#articulo24), 
+que suponen una limitación adicional en el diseño final.
 
 #### Ordenanzas Municipales de Protección del Medio Ambiente
 
-Es común que los ayuntamientos aprueben ordenanzas de ámbito municipal que 
-establezcan mayores limitaciones y/o restricciones, tanto en lo relativo a
-soluciones constructivas o de instalaciones, como en niveles de inmisión al
-espacio exterior y/o colindantes.
-No obstante, no se contempla este extremo por razones obvias en este artículo.
+Si bien no se ha considerado en este artículo, es común que los Ayuntamientos 
+aprueben ordenanzas de ámbito municipal que establecen mayores limitaciones y/o 
+restricciones, tanto en lo relativo a soluciones constructivas o de instalaciones, 
+como en niveles sonoros.
+
 
 <a id="parte3"></a>
 
 ### 3. Limitaciones y condiciones  
 
-Para no extenderme demasiado en este apartado, en los siguientes apartados se incluyen unicamente las prescripciones aplicables a:
-- fachadas, 
-- cubiertas, 
-- medianerías,
-- tabiquerías, y 
-- suelos  
+Para no extenderme demasiado en este apartado, únicamente se hace referencia a:
+los forjados, medianerías,tabiquerías y suelos que conforman cada recinto de nuestro establecimiento, <ins>teniendo en cuenta las condiciones enumeradas en los apartados 1 y 2</ins> de esta publicación, en conjunción con los elementos constructivos de los 
+locales y viviendas adyacentes.
 
-que conforman cada recinto de nuestro establecimiento y que deben tener, <ins>teniendo en cuenta las condiciones enumeradas en los apartados 1 y 2</ins> de este artículo, en conjunción con los elementos 
-constructivos adyacentes con locales y viviendas existentes.
-
-Aun así, dado que tiene cierta extensión, pongo aquí el índice para poder acceder 
-directamente al punto que se necesite:
+Índice de contenidos para poder acceder para facilitar su consulta:
 
 [(2.1) Valores límite de aislamiento](#2-1)  
 [(2.2) Valores límite de tiempo de reverberación (T)](#2-2)  
@@ -195,11 +177,10 @@ directamente al punto que se necesite:
 
 Las exigencias de aislamiento acústico entre un recinto y el exterior se aplican 
 sólo a los recintos protegidos del edificio, por lo que no se contemplan en
-este estudio por tratarse nuestro establecimiento de recinto de actividad.
+este estudio por tratarse nuestro establecimiento de  un recinto de actividad.
 
 Las exigencias de aislamiento acústico entre edificios (medianerías) se contemplan
-en un lateral del establecimiento colindante con un local de oficinas, por considerarlo
-en otro edificio.
+en un lateral del establecimiento colindante con el local de oficinas.
 
 - Entre el establecimiento y **recintos protegidos** (vivienda del piso superior y las oficinas de planta) baja: **(D<sub>nT,A</sub>) $\ge$ 55 dBA**.
 - Entre el establecimiento y un **recinto habitable**, colindante vertical u horizontalmente con él, siempre que no compartan puertas (Portal edifico y local comercial de planta baja): **(D<sub>nT,A</sub>) $\ge$ 45 dBA**.
@@ -269,18 +250,16 @@ a **medianerías** con locales y portal adyacentes. Elegimos el elemento de sepa
 **TIPO 1** que es el más habitual. En nuestro caso cuenta con: un elemento base de una 
 hoja de fábrica (Eb),con un trasdosado por ambos lados (Tr), como se muestra en la figura:
 
-<div markdown=1 style="border-width: 1px; border-style:dotted; border-color:grey; padding: 12px; background-color:">
+<div markdown=1 style="border-width: 1px; border-style:dotted; 
+    border-color:grey; padding: 16px; background-color:">
 
 {:refdef: style="text-align: center;"}
 ![imagen]({{ site.url }}/assets/images/HR-DB/tipo1.jpg)
 {:refdef}
 
-{:refdef: style="text-align: center;"}
-*Eb: elemento constructivo base de fábrica*  
-*Tr: trasdosado*  
-*F: forjado*   
-*Sf: suelo flotante*  
-*Ts: techo suspendido*  
+{:refdef: style="text-align: right;}
+*Eb: elemento constructivo base de fábrica* *Tr: trasdosado* *F: forjado*   
+*Sf: suelo flotante* *Ts: techo suspendido*
 {:refdef}
 </div>
 
@@ -296,11 +275,6 @@ vamos a considerar la tabiquería que separa la cocina del resto de recintos.
 La opción elegida, que en principio es la más habitual, será tabiquería
 de fábrica con apoyo directo en el forjado, sin interposición de vandas elásticas
 (tipo 1).
-
-{:refdef: style="text-align: center;"}
-![imagen]({{ site.url }}/assets/images/HR-DB/figura3-3.jpg)
-{:refdef}
-
 
 ###### Parámetros acústicos de los elementos constructivos
 

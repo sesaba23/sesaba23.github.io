@@ -58,6 +58,10 @@ collections:
     output: true
     subject: Ingeniería
     permalink: /:collection/:path/
+  posts_chapas:
+    output: true
+    subject: Colección de chapas
+    permalink: /:collection/:path/
 
 page_width: 800px
 
