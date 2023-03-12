@@ -21,8 +21,9 @@ artículos tratarán sobre:
 - [ ] Alquiler de trasteros en locales comerciales.
 - [ ] Justificación de niveles de inmisión de ruidos en locales sin equipos musicales.
 - [ ] Condiciones de Evacuación en garajes de viviendas unifamiliares a través de accesos comunes.
-- [ ] Resumenes y análisis de diversos Reglamentos técnicos
+- [x] Resumenes y análisis de diversos Reglamentos técnicos
 - [ ] CTE DB-SI Cocinas
+- [x] Construcción de una nave industrial 
 - [ ] ...
 {: style='list-style-type: none'}
 
@@ -34,4 +35,4 @@ Gracias por tu paciencia.
 
 --
 
-*sesaba23 - 23/02/2023*
+*sesaba23 - 12/03/2023*

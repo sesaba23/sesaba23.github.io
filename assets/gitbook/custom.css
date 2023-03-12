@@ -272,12 +272,17 @@
 }
 
 .cards {
-    max-width: {{ site.page_width | default: '800px' }};
     margin: 0 auto;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  
+    max-width: {{ site.page_width | default: '800px' }};   
   }
 
+  .card {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+    height: 4rem;
+  }
   

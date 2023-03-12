@@ -54,6 +54,10 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
+  posts_normativa:
+    output: true
+    subject: Normativa sectorial
+    permalink: /:collection/:path/
   posts_ingenieria:
     output: true
     subject: Ingeniería
