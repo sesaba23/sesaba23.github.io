@@ -201,7 +201,7 @@ Valores límite de aislamiento:
 (local de oficinas): **(D<sub>2m,nT,Atr</sub>) $\ge$ 40 dBA**. Para el conjunto
 de aislamiento de los dos cerramientos de ambos edificios: **(D<sub>nT,A</sub>) $\ge$ 50 dBA**.
 
-###### Aislamiento acústico a ruido de impactos (L'<sub>nT,w</sub>)
+###### Aislamiento acústico a ruido de impactos (Nivel Global de Presión de Ruido de Impactos: L'<sub>nT,w</sub>)
 
 - En un recinto habitable (protegido o no) colindante vertical, horizontalmente o que tenga una arista horizontal común con un recinto de actividad o con un recinto de instalaciones
 del mismo edificio: **L'<sub>nT,w</sub> $\le$ 60 dBA**.
@@ -444,10 +444,6 @@ revestirse con elementos constructivos con R<sub>A</sub> $\ge$ 33 dBA.
 - Asimismo, cuando un conducto de ventilación se adose a un elemento de separación vertical 
 se seguirán las especificaciones del apartado 3.1.4.1.2. del DB-HR.
 
-<a id="K"></a>
-
-#### (Anejo K.1) Fichas justificativas de la opción simplificada de aislamiento acústico
-
 <a id="articulo24"></a>
 
 #### Artículo 24. Valores límite de inmisión de ruido aplicables a nuevas infraestructuras portuarias y a nuevas actividades
@@ -620,7 +616,8 @@ será de **67 dBA**.
 4. El ruido transmitido máximo permitido en DORMITORIOS en periodo noche es de 25 dBA.
 5. El ruido transmitido máximo permitido en OFICINAS en periodo noche es de 40 dBA.
 
-**Conclusión: **
+**Conclusión:**
+
 <div markdown=1 style="border-width: 1px; border-style:dotted; border-color:grey; padding: 12px; background-color:lightgray">
 El ruido transmitido por la actividad al interior del **DORMITORIO** es:  
 **85,43 dBA - 67 dBA = 18,43 dBA**, por lo que CUMPLIRÍAMOS CON CRECES.
@@ -629,7 +626,11 @@ El ruido transmitido por la actividad a través de medianería con trasdosado es
 **85,43 dBA - 70 dBA = 15,43 dBA**, por lo que CUMPLIRÍAMOS en la zona de **OFICINAS.**
 </div>
 
-###### ANEJO K.1 FICHA JUSTIFICATIVA OPCIÓN SIMPLIFICADA
+<br>
+
+<a id="K"></a>
+
+#### (ANEJO K.1) FICHA JUSTIFICATIVA OPCIÓN SIMPLIFICADA
 
 <table>
     <tr style="font-weight: bold; text-align: left">
