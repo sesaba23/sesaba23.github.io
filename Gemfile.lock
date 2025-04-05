@@ -17,7 +17,7 @@ GEM
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     gemoji (4.0.1)
-    google-protobuf (3.21.12-x86_64-linux)
+    google-protobuf (3.21.12)
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
@@ -46,6 +46,8 @@ GEM
       jekyll (>= 3.0, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jemoji (0.13.0)
@@ -90,8 +92,12 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-readme-index
+  jekyll-seo-tag
   jemoji
   webrick
+
+RUBY VERSION
+   ruby 3.2.2p53
 
 BUNDLED WITH
    2.4.6
