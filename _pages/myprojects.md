@@ -11,6 +11,25 @@ layout: post
 
 Estos son los Proyectos más relevantes que he desarrollado en orden cronológico:
 
+Web Scraping del BOE para Oposiciones Públicas:
+: Aplicación sobre línea de comandos que permite hacer **web scraping** del 
+Boletín Oficial del Estado (BOE) para extraer información sobre convocatorias de oposiciones 
+publicadas por las Administraciones Públicas en el BOE, especialmente la Administración del Estado
+y las Administraciones Locales. 
+Los resultados se almacenan en un archivo Excel y se pueden filtrar por fechas y patrones de búsqueda.
+Es una gran herramienta para aquellas personas que estén preparando oposiciones ya que también
+permite buscar convocatorias en función del tipo de plaza en un rango de fechas especificado,
+permitiendo ahorrar una gran cantidad de tiempo.
+Aunque actualmente estoy implementando nuevas mejoras y funcionalidades, es
+totalmente funcional. Poco a poco iré publicando nuevas mejoras.
+Puedes descargarla en mi [Github personal][18] y contribuir con el proyecto
+ya que es de código abierto.
+
+![imagen]({{ site.url }}/assets/images/web-scraping-resultados.jpg) 
+
+![imagen]({{ site.url }}/assets/images/web-scraping-map.jpg) 
+
+
 Proyecto Web con Django:
 : Actualmente estoy aprendiendo [Python][15] y desarrollo web con [Django][16]. Para ello,
 he implementado una página web personal típica con operaciones CRUD, base de datos
@@ -119,3 +138,4 @@ Puedes descargar una copia del trabajo en el siguiente
 [15]:https://www.python.org/
 [16]:https://www.djangoproject.com/
 [17]:https://www.edx.org/es
+[18]:https://github.com/sesaba23/ope-boe-scraping
